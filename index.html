@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script/saves.js"></script>
+    <script src="script/quest.js" defer></script>
+    <script src="script/main.js" defer></script>
+    <title>Formule TOL</title>
+</head>
+<body>
+    <div id="field">
+        <h1>FORMULE TOL</h1>
+        <h3>Inserire la risposta che si ritiene corretta e premere Conferma</h3>
+        <label id ="domanda">Quanta cacca fai?</label>
+        <form id="answcont">
+            <input type="radio" name = "option" id="prima" value = "1">
+            <label name = "label" for="prima"> 5 kg</label>
+            <br>
+            <input type="radio" name = "option" id="seconda" value = "0">
+            <label name = "label" for="seconda"> 6 kg</label>
+            <br>
+            <input type="radio" name = "option" id="terza" value = "0">
+            <label name = "label" for="terza"> 7 kg</label>
+            <br>
+            <input type="radio" name = "option" id="quarta" value = "0">
+            <label name = "label" for="quarta"> 8 kg</label>
+        </form>
+        <button id="send">Conferma</button>
+        <div>
+            <img id = "feed" src="img/default.png">
+            <label id="giuste">0</label>
+            <label id="sbagliate">0</label>
+            <label id="perc">100%</label>
+        </div>
+    </div>
+</body>
+</html>

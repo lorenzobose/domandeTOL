@@ -1,0 +1,57 @@
+h1, h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#domanda{
+    display: flex;
+    justify-content: center;
+    margin-top : 100px;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+#answcont, button{
+    display: block;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+
+#answcont label, #answcont input{
+    margin-bottom: 60px;
+}
+
+img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 350px;
+    right: 200px;
+    border: 1px solid black;
+}
+
+#perc, #giuste, #sbagliate{
+    position : absolute;
+}
+
+#perc{
+    top: 620px;
+    font-size: 35px;
+    right: 260px;
+}
+
+#giuste, #sbagliate{
+    top: 570px;
+    font-size: 35px;
+}
+
+#giuste{
+    color: green;
+    right: 370px;
+}
+
+#sbagliate{
+    color: red;
+    right: 220px;
+}
